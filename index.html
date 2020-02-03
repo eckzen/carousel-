@@ -8,62 +8,117 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div>
-      <div class="carousel">
-        <ul class="slides">
-          <input type="radio" name="radio-buttons" id="img-1" checked />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg"
-              />
-            </div>
-            <div class="carousel-controls">
-              <label for="img-3" class="prev-slide">
-                <span>&lsaquo;</span>
-              </label>
-              <label for="img-2" class="next-slide">
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <input type="radio" name="radio-buttons" id="img-2" />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img src="http://www.timisoaranight.gruzphoto.eu/IMG_8554.jpg" />
-            </div>
-            <div class="carousel-controls">
-              <label for="img-1" class="prev-slide">
-                <span>&lsaquo;</span>
-              </label>
-              <label for="img-3" class="next-slide">
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <input type="radio" name="radio-buttons" id="img-3" />
-          <li class="slide-container">
-            <div class="slide-image">
-              <img
-                src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg"
-              />
-            </div>
-            <div class="carousel-controls">
-              <label for="img-2" class="prev-slide">
-                <span>&lsaquo;</span>
-              </label>
-              <label for="img-1" class="next-slide">
-                <span>&rsaquo;</span>
-              </label>
-            </div>
-          </li>
-          <div class="carousel-dots">
-            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-          </div>
-        </ul>
+    <section>
+      <div class="container">
+        <div class="carousel">
+          <input type="radio" name="slides" checked="checked" id="slide-1" />
+          <input type="radio" name="slides" id="slide-2" />
+          <input type="radio" name="slides" id="slide-3" />
+          <input type="radio" name="slides" id="slide-4" />
+          <input type="radio" name="slides" id="slide-5" />
+          <input type="radio" name="slides" id="slide-6" />
+          <ul class="carousel__slides">
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="https://picsum.photos/id/1041/800/450" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Tim Marshall</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="https://picsum.photos/id/1043/800/450" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Christian Joudrey</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="https://picsum.photos/id/1044/800/450" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Steve Carter</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="https://picsum.photos/id/1045/800/450" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Aleksandra Boguslawska</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="https://picsum.photos/id/1049/800/450" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Rosan Harmens</span>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="carousel__slide">
+              <figure>
+                <div>
+                  <img src="https://picsum.photos/id/1052/800/450" alt="" />
+                </div>
+                <figcaption>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <span class="credit">Photo: Annie Spratt</span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          <ul class="carousel__thumbnails">
+            <li>
+              <label for="slide-1"
+                ><img src="https://picsum.photos/id/1041/150/150" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-2"
+                ><img src="https://picsum.photos/id/1043/150/150" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-3"
+                ><img src="https://picsum.photos/id/1044/150/150" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-4"
+                ><img src="https://picsum.photos/id/1045/150/150" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-5"
+                ><img src="https://picsum.photos/id/1049/150/150" alt=""
+              /></label>
+            </li>
+            <li>
+              <label for="slide-6"
+                ><img src="https://picsum.photos/id/1052/150/150" alt=""
+              /></label>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
